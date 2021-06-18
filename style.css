@@ -1,0 +1,25 @@
+h3{
+    font-size:50px !important;  
+}
+
+
+
+.btn-warning:hover{
+    background-color: rgb(141, 100, 237);
+}
+
+.btn-danger:hover{
+    background-color: rgb(255, 0, 234);
+}
+
+canvas{
+    animation-name: ClownNose;
+    animation-duration: 3s; ;
+    animation-iteration-count:infinite ;
+}
+
+@keyframes ClownNose{
+from{box-shadow: 9px 9px 100px rgb(243, 0, 0);}
+to{box-shadow: 9px 9px 100px rgb(255, 0, 157);}
+to{box-shadow: 9px 9px 100px rgb(111, 0, 255);}
+}
